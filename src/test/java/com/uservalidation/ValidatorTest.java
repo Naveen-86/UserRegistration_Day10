@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 
 public class ValidatorTest {
     @Test
-    void givenPasswordRule1_itIsValid_returnTrue() {
+    void givenPasswordRule2_itIsValid_returnTrue() {
         Validator validator = new Validator();
-        boolean status = validator.validatePassword("nicenani");
+        boolean status = validator.validatePassword("Nicenani");
         Assertions.assertEquals(true,status);
     }
 }

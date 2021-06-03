@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uservalidation.ValidatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-03T06:18:01" hostname="DESKTOP-0M348LP" time="0.041">
+<testsuite name="com.uservalidation.ValidatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-03T06:27:48" hostname="DESKTOP-0M348LP" time="0.054">
   <properties/>
-  <testcase name="givenPasswordRule1_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.041"/>
+  <testcase name="givenPasswordRule2_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.054"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
