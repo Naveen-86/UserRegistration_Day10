@@ -4,11 +4,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Validator {
-    private static final String MOBILE_NUMBER_PATTERN = "^^[+91]+ [6-9]{1}[0-9]{9}";
-    public boolean validateMobileNumber(String mobileNumber)
+    private static final String PASSWORD_PATTERN = "^[A-Za-z]{8,}";
+    public boolean validatePassword(String password)
     {
-        Pattern pattern = Pattern.compile(MOBILE_NUMBER_PATTERN);
-        Matcher matcher = pattern.matcher(mobileNumber);
+        Pattern pattern = Pattern.compile(PASSWORD_PATTERN);
+        Matcher matcher = pattern.matcher(password);
         return matcher.find();
     }
 }

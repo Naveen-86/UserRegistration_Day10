@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 
 public class ValidatorTest {
     @Test
-    void givenMobileNumber_itIsValid_returnTrue() {
+    void givenPasswordRule1_itIsValid_returnTrue() {
         Validator validator = new Validator();
-        boolean status = validator.validateMobileNumber("+91 9919819801");
+        boolean status = validator.validatePassword("nicenani");
         Assertions.assertEquals(true,status);
     }
 }
