@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uservalidation.ValidatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-03T05:42:09" hostname="DESKTOP-0M348LP" time="0.063">
+<testsuite name="com.uservalidation.ValidatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-03T05:54:15" hostname="DESKTOP-0M348LP" time="0.088">
   <properties/>
-  <testcase name="givenFirstName_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.047"/>
-  <testcase name="givenFirstName_whenInValid_returnfalse()" classname="com.uservalidation.ValidatorTest" time="0.004"/>
-  <testcase name="givenFirstName_whenShort_returnfalse()" classname="com.uservalidation.ValidatorTest" time="0.003"/>
+  <testcase name="givenLastName_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.057"/>
+  <testcase name="givenFirstName_whenInValid_returnfalse()" classname="com.uservalidation.ValidatorTest" time="0.005"/>
+  <testcase name="givenFirstName_whenShort_returnfalse()" classname="com.uservalidation.ValidatorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

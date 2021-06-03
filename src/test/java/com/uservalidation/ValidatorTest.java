@@ -6,23 +6,23 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ValidatorTest {
     @Test
-    void givenFirstName_itIsValid_returnTrue() {
+    void givenLastName_itIsValid_returnTrue() {
         Validator validator = new Validator();
-        boolean status = validator.validateFirstName("Bridgelabz");
+        boolean status = validator.validateLastName("Labz");
         assertEquals(true,status);
     }
 
     @Test
     void givenFirstName_whenShort_returnfalse() {
         Validator validator = new Validator();
-        boolean status = validator.validateFirstName("Br");
+        boolean status = validator.validateLastName("Br");
         assertEquals(false,status);
     }
 
     @Test
     void givenFirstName_whenInValid_returnfalse() {
         Validator validator = new Validator();
-        boolean status = validator.validateFirstName("bridgelabz");
+        boolean status = validator.validateLastName("bridgelabz");
         assertEquals(false,status);
     }
 }
