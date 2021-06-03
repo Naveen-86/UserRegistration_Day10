@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uservalidation.ValidatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-03T06:02:19" hostname="DESKTOP-0M348LP" time="0.072">
+<testsuite name="com.uservalidation.ValidatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-03T06:11:59" hostname="DESKTOP-0M348LP" time="0.047">
   <properties/>
-  <testcase name="givenEmail_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.072"/>
+  <testcase name="givenMobileNumber_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.047"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
