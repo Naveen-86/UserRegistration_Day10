@@ -4,11 +4,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Validator {
-    private static final String LAST_NAME_PATTERN = "^[A-Z]{1}[a-z]{2}[a-z]*";
-    public boolean validateLastName(String lastName)
+    private static final String EMAIL_PATTERN = "^[a][b][c][.][a-z]{3}[@][b][l][.][c][o][.][a-z]{2}";
+    public boolean validateEmail(String email)
     {
-        Pattern pattern = Pattern.compile(LAST_NAME_PATTERN);
-        Matcher matcher = pattern.matcher(lastName);
+        Pattern pattern = Pattern.compile(EMAIL_PATTERN);
+        Matcher matcher = pattern.matcher(email);
         return matcher.find();
     }
 }
