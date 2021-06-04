@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uservalidation.ValidatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-04T02:01:21" hostname="DESKTOP-0M348LP" time="0.037">
+<testsuite name="com.uservalidation.ValidatorTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-06-04T07:08:02" hostname="DESKTOP-0M348LP" time="0.258">
   <properties/>
-  <testcase name="givenPasswordRule4_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.037"/>
+  <testcase name="givenEmail_itIsValid12_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.063"/>
+  <testcase name="givenEmail_itIsValid20_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.006"/>
+  <testcase name="givenEmail_itIsValid11_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.011"/>
+  <testcase name="givenEmail_itIsValid10_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.013"/>
+  <testcase name="givenEmail_itIsValid1_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="givenEmail_itIsValid2_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="givenEmail_itIsValid3_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.004"/>
+  <testcase name="givenEmail_itIsValid4_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.004"/>
+  <testcase name="givenEmail_itIsValid5_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="givenEmail_itIsValid6_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.003"/>
+  <testcase name="givenEmail_itIsValid7_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.003"/>
+  <testcase name="givenEmail_itIsValid8_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="givenEmail_itIsValid9_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="givenEmail_itIsValid19_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="givenEmail_itIsValid18_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.005"/>
+  <testcase name="givenEmail_itIsValid17_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.003"/>
+  <testcase name="givenEmail_itIsValid16_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="givenEmail_itIsValid15_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="givenEmail_itIsValid14_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.017"/>
+  <testcase name="givenEmail_itIsValid13_returnFalse()" classname="com.uservalidation.ValidatorTest" time="0.004"/>
+  <testcase name="givenEmail_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
