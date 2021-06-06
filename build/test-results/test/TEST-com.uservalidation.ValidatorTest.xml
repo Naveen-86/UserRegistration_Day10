@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.uservalidation.ValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-05T03:19:47" hostname="DESKTOP-0M348LP" time="0.309">
+<testsuite name="com.uservalidation.ValidatorTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2021-06-06T03:22:40" hostname="DESKTOP-0M348LP" time="0.093">
   <properties/>
-  <testcase name="givenPasswordRule4_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.079"/>
-  <testcase name="givenLastName_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.069"/>
-  <testcase name="givenMobileNumber_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.011"/>
-  <testcase name="givenFirstName_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.068"/>
-  <testcase name="givenEmail_itIsValid_returnTrue()" classname="com.uservalidation.ValidatorTest" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="emailChecker[0]" classname="com.uservalidation.ValidatorTest" time="0.018"/>
+  <testcase name="emailChecker[1]" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="emailChecker[2]" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="emailChecker[3]" classname="com.uservalidation.ValidatorTest" time="0.0"/>
+  <testcase name="emailChecker[4]" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="emailChecker[5]" classname="com.uservalidation.ValidatorTest" time="0.0"/>
+  <testcase name="emailChecker[6]" classname="com.uservalidation.ValidatorTest" time="0.0"/>
+  <testcase name="emailChecker[7]" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="emailChecker[8]" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="emailChecker[9]" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="emailChecker[10]" classname="com.uservalidation.ValidatorTest" time="0.003"/>
+  <testcase name="emailChecker[11]" classname="com.uservalidation.ValidatorTest" time="0.005"/>
+  <testcase name="emailChecker[12]" classname="com.uservalidation.ValidatorTest" time="0.003"/>
+  <testcase name="emailChecker[13]" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="emailChecker[14]" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="emailChecker[15]" classname="com.uservalidation.ValidatorTest" time="0.005"/>
+  <testcase name="emailChecker[16]" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <testcase name="emailChecker[17]" classname="com.uservalidation.ValidatorTest" time="0.001"/>
+  <testcase name="emailChecker[18]" classname="com.uservalidation.ValidatorTest" time="0.008"/>
+  <testcase name="emailChecker[19]" classname="com.uservalidation.ValidatorTest" time="0.005"/>
+  <testcase name="emailChecker[20]" classname="com.uservalidation.ValidatorTest" time="0.002"/>
+  <system-out><![CDATA[abc@yahoo.com
+abcyahoo.com
+abc-100@yahoo.com
+abc.100@yahoo.com
+abc111@abc.com
+abc-100@abc.net
+abc.100@abc.com.au
+abc@1.com
+abc@gmail.com.com
+abc+100@gmail.com
+abc
+abc@.com.my
+abc123@gmail.a
+abc123@.com
+abc123@.com.com
+.abc@abc.com
+abc()*@gmail.com
+abc@%*.com
+abc..2002@gmail.com
+abc.@gmail.com
+abc@abc@gmail.com
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
